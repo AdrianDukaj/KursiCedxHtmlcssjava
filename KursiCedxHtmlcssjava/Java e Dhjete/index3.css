@@ -1,0 +1,39 @@
+@media only screen and (max-width: 600px) {
+
+  body {
+    background-color: black;
+    color: white;
+  }
+  
+}
+
+
+
+@media (min-width:600px){
+
+  body{
+    background-color: darkolivegreen;
+    color: white;
+  }
+}
+
+@media (min-width:768px) {
+ body{
+  background-color: goldenrod;
+ }
+}
+
+@media (min-width:992px){
+  body{
+    background-color: darkorchid;
+  }
+}
+
+@media (min-width:1200px){
+  body{
+    background-color: palevioletred;
+  }
+}
+
+  
+adrian

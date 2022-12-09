@@ -1,0 +1,21 @@
+.container{
+  background-color: chocolate;
+  height: 1000px;
+ 
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  
+  align-content: flex-start;
+ }
+
+
+ .item{
+  color: white;
+  background-color: cornflowerblue;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  /* margin: 30px; */
+  flex: 1;
+}

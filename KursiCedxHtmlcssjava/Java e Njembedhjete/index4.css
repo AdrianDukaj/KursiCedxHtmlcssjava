@@ -1,0 +1,42 @@
+body{
+    height: 1000px;
+}
+
+
+
+div{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border: 1px solid;
+
+}
+
+.translate{
+    transform: translate(50px, 100px);
+}
+.translate2{
+    transform: translate(0, -100px);
+    background-color: aqua;
+}
+
+
+.rotate{
+    transform: rotate(45deg);
+    margin: 20px;
+}
+
+.scale{
+    margin-left: 200px;
+    transform: scale(1.5);
+}
+
+.skew{
+    margin: 20px;
+    transform: skew(20deg, 10deg);
+}
+
+.matrix{
+    transform: matrix(1.5, 0, 1.2, 1.7, 200, 100);
+}

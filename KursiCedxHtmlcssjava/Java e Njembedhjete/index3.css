@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    height: 100vh;
+    background-color: #ddd;
+
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+
+.card{
+    background-color: white;
+    padding: 1.1rem;
+    /* width: max(500%, 70%); */
+    /* width: min(500%,70%); */
+}

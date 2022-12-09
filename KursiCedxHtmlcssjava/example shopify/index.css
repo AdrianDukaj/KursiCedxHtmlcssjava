@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: rgba(0,45,45)
+}
+
+.navbar{
+   
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.shopify_logo{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px;
+
+}
+
+
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar_item{
+   padding-left: 2rem;
+}
+.shopify_logo{
+    margin: 0;
+    height: 0;
+    vertical-align: middle;
+    padding: 10px;
+}
+.navbar_links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button{
+    border: 1px solid #008060;
+    border-width: 0.25em;
+    background-color: #008060;
+    box-sizing: border-box;
+    touch-action: manipulation;
+    margin: none;
+    padding: 0.8125em 1.25em;
+    text-decoration: none;
+    border-radius: 4.5px;
+    font-weight: 700;
+    font-size: 1em;
+    font-size: 1em;
+    line-height: 1.1333;
+    transition: 150ms ease;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    color: #ffffff;
+
+
+}
+
+.button2{
+    border: 1px solid #008060;
+    border-width: 0.25em;
+    background-color: #008060;
+    box-sizing: border-box;
+    touch-action: manipulation;
+    margin: none;
+    padding: 0.8125em 1.25em;
+    text-decoration: none;
+    border-radius: 4.5px;
+    font-weight: 700;
+    font-size: 1em;
+    font-size: 1em;
+    line-height: 1.1333;
+    transition: 150ms ease;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    color: #ffffff;
+
+
+}
+.button2:hover{
+    background: rgba(0,45,45);
+    transition: all 0.1s ease;
+}
+.button:hover{
+    background: rgba(0,45,45);
+    transition: all 0.1s ease;
+}
+
+.navbar_links:hover{
+    color: #ffffff;
+    transition: all 0.3 ease;
+}
+
+#container div {
+    font-size: 40px;
+  }
+  
+  #container, .section, .aside, .footer {
+    padding: 25px;
+  }
+
+#container.section1{
+    border-style: dashed;
+}
+
+.section{
+    font-size: 3em;
+    line-height: 3rem;
+    color: #ffffff;
+    letter-spacing: -0.084375rem;
+    margin-bottom: 0.625em;
+    font-weight: 800;
+    text-align: left;
+}
+  
+  .section {
+    float: left;
+    width: 60%;
+  }
+  
+  .aside {
+    float: right;
+    width: 40%;
+  }
+
+  .img{
+    max-width: 100%;
+    padding: 0;
+    vertical-align: middle;
+    height: 100%;
+    
+
+  }
+  .text{
+    font-size: 0;
+  }

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "AlumniRegular";
+    src: url("./assets/Alumni_Sans_Collegiate_One/AlumniSansCollegiateOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "AlumniRegularIalic";
+    src: url("./assets/Alumni_Sans_Collegiate_One/AlumniSansCollegiateOne-Italic.ttf");
+}
+
+h1{
+    font-family: "AlumniRegular";
+}
+
+p{
+    font-family: "AlumniRegularIalic"
+}
+
+h2{
+    font-family: "Passions Conflict";
+}

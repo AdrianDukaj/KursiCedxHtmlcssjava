@@ -1,0 +1,68 @@
+.parent{
+  font-size: 2.5rem;
+  background-color: darkslateblue;
+  padding: 20px;
+
+  position: relative;
+
+  height: 2500px;
+  font-family: 'Pacifico', cursive;
+}
+
+.child{
+  padding: 5px 10px;
+  height: 500px;
+  position: sticky;
+  top: 10px;
+  font-family:'Signika Negative', sans-serif;;
+}
+
+.one{
+/* position: fixed; */
+/* top: 0; */
+/* width: 600px; */
+
+/* position: sticky; */
+/* top: 10px; */
+
+}
+.two{
+
+}
+.three{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.one{
+  background-color: lightcoral;
+}
+
+.two{
+  background-color: lightblue;
+}
+
+.three{
+background-color: lightseagreen;
+}

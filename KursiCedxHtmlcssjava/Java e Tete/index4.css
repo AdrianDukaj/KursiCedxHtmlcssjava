@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container div {
+  border: 1px solid;
+  font-size: 40px;
+}
+
+#container, .section, .aside, .footer {
+  padding: 25px;
+}
+
+#container .nav{
+  border-style: dashed;
+
+}
+#container .section1{
+  border-style: dashed;
+}
+
+#container .section2{
+  border-style: dashed;
+}
+
+.header {
+  padding: 30px;
+
+}
+
+.section .article {
+  height: 45%;
+  height: 45%;
+
+}
+.section1, .section2 {
+  height: 45%;
+  
+}
+
+.section, .aside {
+  height: 500px;
+}
+
+#container .article1{
+  border-style: dashed;
+
+}
+#container .article2{
+  border-style: dashed;
+}
+.section {
+  float: left;
+  width: 55%;
+}
+
+.aside {
+  float: right;
+  width: 37%;
+}
+
+.footer {
+  clear: both;
+}
+
+.green {
+  color: #7bb9a3;
+}
+.blue {
+  color: #5f93c5;
+}
+.purple {
+  color: #ad55ac;
+}
+.yellow {
+  color: #c7b285;
+}
+.red {
+  color: #d95b5f;
+}

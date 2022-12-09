@@ -1,0 +1,31 @@
+div{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+}
+
+h1{
+    font-size: 60px;
+    border: 2px solid brown;
+}
+
+p{
+    font-family: "Bungee Spice";
+    border: 1px solid red;
+}
+@font-face {
+    font-family: "AlumniRegular";
+    src: url(./assets/Alumni_Sans_Collegiate_One/AlumniSansCollegiateOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "AlumniItalic";
+    src: url(./assets/Alumni_Sans_Collegiate_One/AlumniSansCollegiateOne-Italic.ttf
+    );
+}
+h2{
+    font-family: "AlumniRegular";
+}
+
+pre{
+    font-family: 'Varela Round';
+}

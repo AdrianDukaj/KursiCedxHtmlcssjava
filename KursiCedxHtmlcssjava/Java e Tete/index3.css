@@ -1,0 +1,17 @@
+.header, .service, .footer{
+
+  border: 1px solid cyan;
+  background-color: #eee;
+  text-align: center;
+}
+.service{
+  float: left;
+  width: 29%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.footer{
+
+  clear: both;
+}

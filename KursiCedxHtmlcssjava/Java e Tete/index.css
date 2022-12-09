@@ -1,0 +1,39 @@
+.container{
+  height: 1000px;
+  padding: 10px;
+  border: 1px solid;
+}
+
+
+
+
+
+.background-div{
+  border: 1px solid;
+  width: 500px;
+  height: 300px;
+  
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/142/751/831/landscape-anime-digital-art-fantasy-art-wallpaper-preview.jpg);
+
+  background-attachment: fixed;
+  
+  /* background-clip: content-box; */
+
+  background-size: 50%;
+  background-repeat: no-repeat;
+;
+  background-position-x: 50px;
+  background-position-y: 50px;
+
+}
+
+h1{
+  font-size: 80px;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/142/751/831/landscape-anime-digital-art-fantasy-art-wallpaper-preview.jpg);
+
+
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text; google chrome
+  background-size: contain;
+}

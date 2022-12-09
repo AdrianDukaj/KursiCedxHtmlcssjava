@@ -1,0 +1,12 @@
+table,th,td{
+    border: 2px solid blanchedalmond;
+}
+
+tbody{
+    text-align: center;
+}
+
+table{
+  width: 800px;
+  border-collapse: collapse;
+}

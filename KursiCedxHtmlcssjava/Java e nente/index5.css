@@ -1,0 +1,27 @@
+.box{
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+
+.one{
+  background-color: darkseagreen;
+  top: 10px;
+  z-index: 1;
+}
+
+.two{
+  background-color: indianred;
+  left: 40px;
+  top: 20px;
+  /* z-index: 4; */
+}
+
+.three{
+
+  background-color: tan;
+  bottom: 30px;
+  left: 50px;
+  z-index: 3px;
+}

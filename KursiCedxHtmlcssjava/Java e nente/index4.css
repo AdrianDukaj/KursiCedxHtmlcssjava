@@ -1,0 +1,21 @@
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: cadetblue;
+
+  margin-top: 50px;
+  margin-left: 100px;
+
+
+  /* box-shadow: 7px 7px 15px 4px goldenrod,
+            -7px -7px 15px 4px blueviolet; */
+            
+}
+
+.box:hover{
+  box-shadow:7px 7px 15px 4px gray  ;
+}
+
+.box:active{
+  box-shadow: 7px 7px 15px 4px gray inset;
+}

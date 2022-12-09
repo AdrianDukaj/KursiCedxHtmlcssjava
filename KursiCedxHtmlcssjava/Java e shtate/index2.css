@@ -1,0 +1,25 @@
+div
+{
+  background-color:rgb(24, 25, 50);
+  color: white;
+  font-size: 40px;
+  margin: 10px;
+  
+  
+}
+
+.percent{
+  width: 60%;
+}
+.em{
+  width: 60em;
+}
+.rem{
+  width: 60rem;
+}
+.vw{
+  width: 60vw;
+}
+.vh{
+  width: 60vh;
+}
